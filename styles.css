@@ -154,6 +154,10 @@ time {
 }
 
 @media (min-width: 960px) {
+  body {
+    background: var(--grayish-blue-light);
+  }
+
   .card {
     width: 750px;
     height: 300px;
@@ -177,6 +181,7 @@ time {
     height: 70%;
     padding: 2rem 3rem 0 3rem;
     border-top-right-radius: 1rem;
+    background-color: white;
   }
 
   .title {
@@ -194,6 +199,7 @@ time {
     padding: 0.5rem 3rem;
     border-bottom-left-radius: 0;
     align-items: start;
+    background-color: white;
   }
 
   .social {
