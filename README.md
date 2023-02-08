@@ -52,6 +52,7 @@ Users should be able to:
 - background positioning
 - clip-path vs masking (not applied here but found interesting)
 - ::before ::after
+- html time tag
 
 ### Continued development
 
