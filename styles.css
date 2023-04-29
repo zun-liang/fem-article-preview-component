@@ -9,16 +9,16 @@
   --grayish-blue-light: hsl(210, 46%, 95%);
   --grayish-blue-dark: hsl(217, 19%, 35%);
   --blue-dark: hsl(214, 17%, 51%);
-  --icon-bg: hsl(210, 44%, 89%);
 }
 
 body {
+  height: 100%;
   min-height: 100vh;
+  background-color: var(--grayish-blue-light);
   font-size: 13px;
   font-weight: 500;
   font-family: 'Manrope', sans-serif;
   color: var(--grayish-blue-dark);
-  background: linear-gradient(var(--grayish-blue-light), var(--grayish-blue));
   line-height: 1.5;
   display: flex;
   flex-direction: column;
@@ -44,10 +44,10 @@ body {
 
 .content {
   padding: 2.5rem 2.5rem 0.5rem;
-  background-color: var(--grayish-blue-light);
+  background-color: white;
 }
 
-.title {
+h1 {
   font-size: 18px;
   font-weight: 700;
   padding-bottom: 1rem;
@@ -56,14 +56,13 @@ body {
 .preview {
   color: var(--blue-dark);
   font-size: 14px;
-  padding-right: 1.2rem;
-  padding-bottom: 0.7rem;
+  padding: 0 1.2rem 0.7rem 0;
 }
 
 .social-section {
   height: 90px;
   padding: 1rem 2.5rem;
-  background-color: var(--grayish-blue-light);
+  background-color: white;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   display: grid;
@@ -129,9 +128,8 @@ time {
   height: 40px;
   border: none;
   border-radius: 50%;
-  background-color: var(--icon-bg);
+  background-color: var(--grayish-blue-light);
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -141,27 +139,13 @@ time {
 }
 
 .icon-share-arrow {
-  width: 22px;
-}
-
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
-}
-
-.attribution a { 
-  color: var(--grayish-blue-dark); 
+  width: 16px;
 }
 
 @media (min-width: 960px) {
-  body {
-    background: var(--grayish-blue-light);
-  }
-
   .card {
     width: 750px;
     height: 300px;
-    margin: 0 auto 1rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -170,7 +154,6 @@ time {
   .illustration {
     width: 40.5%;
     height: 100%;
-    border-top-left-radius: 1rem;
     border-top-right-radius: 0;
     border-bottom-left-radius: 1rem;
     background-position-y: 0;
@@ -179,18 +162,13 @@ time {
   .content {
     width: 62%;
     height: 70%;
-    padding: 2rem 3rem 0 3rem;
+    padding: 2rem 3rem 0;
     border-top-right-radius: 1rem;
-    background-color: white;
   }
 
-  .title {
+  h1 {
     font-size: 20px;
     padding-bottom: 0.8rem;
-  }
-
-  .preview {
-    font-size: 13px;
   }
 
   .social-section {
@@ -199,7 +177,6 @@ time {
     padding: 0.5rem 3rem;
     border-bottom-left-radius: 0;
     align-items: start;
-    background-color: white;
   }
 
   .social {
@@ -207,13 +184,11 @@ time {
     justify-self: start;
   }
 
-  .user,
-  time {
+  .preview, .user, time, .share {
     font-size: 13px;
   }
 
   .share-section {
-    justify-self: start;
     background-color: var(--grayish-blue-dark);
     width: 250px;
     height: 55px;
@@ -240,9 +215,5 @@ time {
 
   .icon {
     width: 18px;
-  }
-  
-  .share {
-    font-size: 13px;
   }
 }
