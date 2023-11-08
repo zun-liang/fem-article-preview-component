@@ -1,6 +1,6 @@
 # Frontend Mentor - Article preview component solution
 
-This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -13,7 +13,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-
 
 ## Overview
 
@@ -45,7 +44,6 @@ Users should be able to:
 - Javascript
 - Mobile-first workflow
 
-
 ### What I learned
 
 - word-spacing
@@ -61,5 +59,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Zun Liang](https://zun-liang.github.io/)
+- Website - [Zun Liang](https://zunldev.com/)
+- GitHub - [@zun-liang](https://github.com/zun-liang)
 - Frontend Mentor - [@zun-liang](https://www.frontendmentor.io/profile/zun-liang)
+- freeCodeCamp - [@zun-liang](https://www.freecodecamp.org/zun-liang)
