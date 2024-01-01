@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://www.frontendmentor.io/solutions/articlepreview-using-html-css-and-javascript-Ho3bFQkvRp)
-- Live Site URL: [here](https://zun-liang.github.io/article-preview-component-master/)
+- Live Site URL: [here](https://zun-liang.github.io/fem-article-preview-component/)
 
 ## My process
 
